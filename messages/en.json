@@ -17,7 +17,13 @@
     "availability": "Available for freelance",
     "aria": {
       "goToTop": "Go to top",
-      "contact": "Contact"
+      "contact": "Contact",
+      "switchToEnglish": "Switch to English",
+      "switchToTurkish": "Switch to Turkish"
+    },
+    "lang": {
+      "en": "EN",
+      "tr": "TR"
     }
   },
   "contact": {

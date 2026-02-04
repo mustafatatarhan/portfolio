@@ -17,7 +17,13 @@
     "availability": "Freelance için müsait",
     "aria": {
       "goToTop": "Başa dön",
-      "contact": "İletişim"
+      "contact": "İletişim",
+      "switchToEnglish": "İngilizceye geç",
+      "switchToTurkish": "Türkçeye geç"
+    },
+    "lang": {
+      "en": "EN",
+      "tr": "TR"
     }
   },
   "contact": {
