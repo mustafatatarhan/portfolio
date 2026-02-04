@@ -1,26 +1,145 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ===== Flat dark background like the reference ===== */
+html,
+body {
+  height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #1f2630;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+/* smoother fonts */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== tiny theme classes (NO @apply) ===== */
+.nav-link {
+  font-size: 0.875rem;
+  /* text-sm */
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.75);
+  transition: color 150ms ease;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav-link-active {
+  font-size: 0.875rem;
+  /* text-sm */
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: #00e6ff;
+}
+
+.social-pill {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border: 2px solid rgba(0, 230, 255, 0.75);
+  color: rgba(0, 230, 255, 0.95);
+  background: rgba(0, 230, 255, 0.06);
+  transition: transform 180ms ease, background 180ms ease;
+}
+
+.social-pill:hover {
+  transform: translateY(-1px);
+  background: rgba(0, 230, 255, 0.1);
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  padding: 12px 28px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  color: #061018;
+  background: #00e6ff;
+  box-shadow: 0 16px 40px rgba(0, 230, 255, 0.25);
+  transition: transform 180ms ease, box-shadow 180ms ease, filter 180ms ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 22px 54px rgba(0, 230, 255, 0.3);
+  filter: brightness(1.02);
+}
+
+.accent {
+  color: #00e6ff;
+}
+
+.code-surface {
+  background: linear-gradient(180deg, rgba(11, 18, 32, 0.92), rgba(11, 18, 32, 0.86));
+}
+
+.code-token-comment {
+  color: rgba(106, 153, 85, 0.95);
+}
+
+/* VS Code comment green */
+.code-token-string {
+  color: rgba(206, 145, 120, 0.95);
+}
+
+/* string */
+.code-token-keyword {
+  color: rgba(86, 156, 214, 0.98);
+}
+
+/* keywords */
+.code-token-type {
+  color: rgba(78, 201, 176, 0.98);
+}
+
+/* types */
+.code-token-number {
+  color: rgba(181, 206, 168, 0.98);
+}
+
+/* numbers */
+.code-token-fn {
+  color: rgba(220, 220, 170, 0.98);
+}
+
+/* function-ish */
+.code-token-punc {
+  color: rgba(212, 212, 212, 0.55);
+}
+
+/* punctuation */
+.code-token-plain {
+  color: rgba(212, 212, 212, 0.92);
+}
+
+/* default */
+
+.code-caret {
+  display: inline-block;
+  width: 0.6ch;
+  height: 1.2em;
+  transform: translateY(2px);
+  background: rgba(34, 211, 238, 0.9);
+  /* cyan */
+  box-shadow: 0 0 18px rgba(34, 211, 238, 0.35);
+  animation: caretBlink 1s step-end infinite;
+}
+
+@keyframes caretBlink {
+  50% {
+    opacity: 0;
+  }
 }
