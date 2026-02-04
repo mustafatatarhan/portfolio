@@ -116,7 +116,7 @@ export default function Hero() {
 
                     <a
                         className="social-pill"
-                        href="mailto:contact@mustafatarthan.me"
+                        href="mailto:contact@mustafatatarhan.me"
                         aria-label={t("social.email")}
                     >
                         <HiMail size={18} />

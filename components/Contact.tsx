@@ -58,7 +58,7 @@ export default function Contact() {
                     icon={<HiMail className="h-5 w-5" />}
                     title={t("cards.email.title")}
                     description={t("cards.email.description")}
-                    href="mailto:contact@mustafatarthan.me?subject=Project%20Inquiry"
+                    href="mailto:contact@mustafatatarhan.me?subject=Project%20Inquiry"
                     cta={t("cards.email.cta")}
                 />
 

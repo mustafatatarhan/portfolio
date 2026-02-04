@@ -74,7 +74,7 @@ export default function Footer() {
 
                             <a
                                 className="social-pill"
-                                href="mailto:contact@mustafatarthan.me"
+                                href="mailto:contact@mustafatatarhan.me"
                                 aria-label={t("socialAria.email")}
                             >
                                 <HiMail size={18} />
