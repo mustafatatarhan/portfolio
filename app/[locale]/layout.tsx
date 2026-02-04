@@ -9,6 +9,10 @@ import { locales, type Locale } from "@/i18n/request";
 export const metadata: Metadata = {
   title: "Mustafa Tatarhan – Portfolio",
   description: "Mobile Product Developer",
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
+  },
 };
 
 export default async function LocaleLayout({
