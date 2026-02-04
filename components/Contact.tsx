@@ -42,7 +42,7 @@ export default function Contact() {
 
                 {/* Primary CTA */}
                 <div className="flex flex-wrap items-center gap-4">
-                    <a className="btn-primary" href="mailto:hello@yourmail.com">
+                    <a className="btn-primary" href="mailto:contact@mustafatarthan.me">
                         {t("actions.emailMe")}
                     </a>
 
@@ -58,7 +58,7 @@ export default function Contact() {
                     icon={<HiMail className="h-5 w-5" />}
                     title={t("cards.email.title")}
                     description={t("cards.email.description")}
-                    href="mailto:hello@yourmail.com?subject=Project%20Inquiry"
+                    href="mailto:contact@mustafatarthan.me?subject=Project%20Inquiry"
                     cta={t("cards.email.cta")}
                 />
 
@@ -66,7 +66,7 @@ export default function Contact() {
                     icon={<SiLinkedin className="h-5 w-5" />}
                     title={t("cards.linkedin.title")}
                     description={t("cards.linkedin.description")}
-                    href="https://www.linkedin.com/in/YOUR_LINKEDIN"
+                    href="https://www.linkedin.com/in/mustafatatarhan"
                     cta={t("cards.linkedin.cta")}
                 />
             </div>

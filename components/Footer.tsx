@@ -64,7 +64,7 @@ export default function Footer() {
                         <div className="mt-4 flex items-center gap-3">
                             <a
                                 className="social-pill"
-                                href="https://www.linkedin.com/in/YOUR_LINKEDIN"
+                                href="https://www.linkedin.com/in/mustafatatarhan"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label={t("socialAria.linkedIn")}
@@ -74,7 +74,7 @@ export default function Footer() {
 
                             <a
                                 className="social-pill"
-                                href="mailto:hello@yourmail.com"
+                                href="mailto:contact@mustafatarthan.me"
                                 aria-label={t("socialAria.email")}
                             >
                                 <HiMail size={18} />
@@ -82,7 +82,7 @@ export default function Footer() {
 
                             <a
                                 className="social-pill"
-                                href="https://www.instagram.com/YOUR_INSTAGRAM"
+                                href="https://www.instagram.com/mustafa5tatarhan"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label={t("socialAria.instagram")}

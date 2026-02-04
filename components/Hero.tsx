@@ -9,6 +9,7 @@ import {
 } from "react-icons/hi2";
 import { useTranslations } from "next-intl";
 import HeroCodePreview from "@/components/HeroCodePreview";
+import { HiOutlineArrowDownTray } from "react-icons/hi2";
 
 export default function Hero() {
     const t = useTranslations("hero");
@@ -61,10 +62,40 @@ export default function Hero() {
                         {t("actions.startProject")}
                     </a>
 
+                    <a
+                        href="/MUSTAFA_TATARHAN_CV.pdf"
+                        download
+                        className="
+    group inline-flex items-center gap-2
+    rounded-full
+    border border-white/10
+    bg-white/[0.04]
+    px-5 py-2.5
+    text-sm font-semibold text-white/85
+    backdrop-blur
+    transition-all duration-200
+    hover:border-white/20 hover:bg-white/[0.08]
+    hover:shadow-[0_0_0_1px_rgba(255,255,255,0.05)]
+    focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/40
+  "
+                        aria-label="Download CV (PDF)"
+                    >
+                        <HiOutlineArrowDownTray
+                            className="
+      h-4 w-4
+      text-white/60
+      transition-transform duration-200
+      group-hover:translate-y-[1px] group-hover:text-white/90
+    "
+                        />
+                        <span>{t("cta.downloadCV")}</span>
+                    </a>
                     <a href="#projects" className="nav-link inline-flex items-center gap-2">
                         {t("actions.viewProjects")}{" "}
                         <span className="text-white/50">→</span>
                     </a>
+
+
 
                     <span className="text-sm text-white/60">
                         {t("cta.availability")}
@@ -85,7 +116,7 @@ export default function Hero() {
 
                     <a
                         className="social-pill"
-                        href="mailto:mtworkce@gmail.com"
+                        href="mailto:contact@mustafatarthan.me"
                         aria-label={t("social.email")}
                     >
                         <HiMail size={18} />
