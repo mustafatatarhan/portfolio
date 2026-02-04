@@ -1,0 +1,617 @@
+{
+  "navbar": {
+    "projects": "Projects",
+    "services": "Services",
+    "process": "Process",
+    "contact": "Contact",
+    "available": "Available for freelance",
+    "brandAria": "Go to top",
+    "contactAria": "Contact",
+    "brandName": "Mustafa Tatarhan",
+    "links": {
+      "projects": "Projects",
+      "services": "Services",
+      "process": "Process",
+      "contact": "Contact"
+    },
+    "availability": "Available for freelance",
+    "aria": {
+      "goToTop": "Go to top",
+      "contact": "Contact"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Tell me what you’re building and what constraints you have (timeline, platform, budget). I’ll reply with a realistic plan and next steps.",
+    "fastestWay": {
+      "title": "Fastest way",
+      "subtitle": "Send a short message with:",
+      "items": [
+        "What the app does (1–2 sentences)",
+        "Target platforms (iOS / Android / Web)",
+        "Timeline and any must-have features"
+      ]
+    },
+    "primaryCta": {
+      "email": "Email me",
+      "services": "See services"
+    },
+    "cards": {
+      "email": {
+        "title": "Email",
+        "description": "Best for project details, timelines, and requirements.",
+        "cta": "Send an email"
+      },
+      "linkedin": {
+        "title": "LinkedIn",
+        "description": "Great for a quick intro and context about your product.",
+        "cta": "Message on LinkedIn"
+      },
+      "linkedIn": {
+        "title": "LinkedIn",
+        "description": "Great for a quick intro and context about your product.",
+        "cta": "Message on LinkedIn"
+      }
+    },
+    "footerNote": "Prefer async? Email works best - I typically reply within 24 hours.",
+    "section": {
+      "title": "Contact",
+      "description": "Tell me what you're building and what constraints you have (timeline, platform, budget). I'll reply with a realistic plan and next steps.",
+      "fastestWayTitle": "Fastest way",
+      "fastestWayLead": "Send a short message with:",
+      "fastestWayItems": [
+        "What the app does (1-2 sentences)",
+        "Target platforms (iOS / Android / Web)",
+        "Timeline and any must-have features"
+      ]
+    },
+    "actions": {
+      "emailMe": "Email me",
+      "seeServices": "See services"
+    }
+  },
+  "footer": {
+    "brandDescription": "End-to-end Flutter product development — performance-first apps, scalable backends, and store-ready releases.",
+    "availability": "Available for freelance",
+    "navigationTitle": "Navigation",
+    "nav": {
+      "projects": "Projects",
+      "services": "Services",
+      "process": "Process",
+      "contact": "Contact"
+    },
+    "socialTitle": "Say hello",
+    "socialNote": "For project inquiries, email works best. Include timeline + scope, I’ll reply with next steps.",
+    "copyright": "© {year} Mustafa Tatarhan. All rights reserved.",
+    "builtWith": "Built with Next.js and Tailwind.",
+    "brandName": "Mustafa Tatarhan",
+    "tagline": "End-to-end Flutter product development - performance-first apps, scalable backends, and store-ready releases.",
+    "links": {
+      "projects": "Projects",
+      "services": "Services",
+      "process": "Process",
+      "contact": "Contact"
+    },
+    "socialAria": {
+      "linkedIn": "LinkedIn",
+      "email": "Email",
+      "instagram": "Instagram"
+    },
+    "inquiryNote": "For project inquiries, email works best. Include timeline and scope, I'll reply with next steps."
+  },
+  "hero": {
+    "locationLine": "Sakarya, TR - Flutter - Mobile Product Development",
+    "headline": {
+      "prefix": "I build",
+      "highlight": "end-to-end",
+      "tech": "Flutter",
+      "suffix": "products that ship."
+    },
+    "description": "MVP to production-ready apps with clean architecture, performance (isolates), and native iOS/Android when it matters - plus scalable backends and subscription workflows (RevenueCat).",
+    "trust": {
+      "flutterFirst": "Flutter-first",
+      "native": "iOS & Android native",
+      "backend": "Backend + subscriptions",
+      "storeReady": "Store-ready releases"
+    },
+    "cta": {
+      "primary": "Start a project",
+      "secondary": "View projects",
+      "availability": "Available for freelance - Remote / Hybrid"
+    },
+    "whatYouGet": {
+      "title": "What you get",
+      "items": [
+        "Clear scope, milestones, and weekly progress updates",
+        "Performance-first Flutter (isolates) and native iOS/Android when needed",
+        "Backend, auth, payments/subscriptions, analytics, and store release support"
+      ]
+    },
+    "title": {
+      "prefix": "I build",
+      "accent": "end-to-end",
+      "platform": "Flutter",
+      "suffix": "products that ship."
+    },
+    "trustBadges": {
+      "flutterFirst": "Flutter-first",
+      "native": "iOS and Android native",
+      "backend": "Backend and subscriptions",
+      "storeReady": "Store-ready releases"
+    },
+    "actions": {
+      "startProject": "Start a project",
+      "viewProjects": "View projects"
+    },
+    "social": {
+      "linkedIn": "LinkedIn",
+      "email": "Email",
+      "instagram": "Instagram"
+    }
+  },
+  "heroCodePreview": {
+    "fileName": "lib/main.dart",
+    "badge": "Flutter",
+    "codeText": "Production-ready Flutter apps.",
+    "language": "Flutter",
+    "fullCode": "import 'package:flutter/material.dart';\n\nvoid main() {\n  runApp(const MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n  const MyApp({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return MaterialApp(\n      debugShowCheckedModeBanner: false,\n      home: const HomePage(),\n    );\n  }\n}\n\nclass HomePage extends StatelessWidget {\n  const HomePage({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return const Scaffold(\n      body: Center(\n        child: Text(\n          'Production-ready Flutter apps.',\n        ),\n      ),\n    );\n  }\n}"
+  },
+  "process": {
+    "title": "Process",
+    "description": "A simple, predictable workflow — designed to reduce risk and ship production-ready mobile apps. You’ll always know what’s happening, what’s next, and what you’re getting.",
+    "ctaDiscuss": "Discuss your project",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Scope",
+        "description": "We align on the goal, constraints, and what “done” looks like. I turn it into a clear scope and realistic milestones.",
+        "deliverables": [
+          "Brief + requirements clarification",
+          "Milestones, timeline, and risk notes",
+          "Project plan with weekly checkpoints"
+        ]
+      },
+      "architecture": {
+        "title": "Architecture & UX Plan",
+        "description": "I define the technical foundation and UX flows before deep implementation, so the build scales cleanly.",
+        "deliverables": [
+          "High-level architecture (Flutter + backend)",
+          "Core UX flows & navigation plan",
+          "Data model + integration plan (APIs/Firestore/etc.)"
+        ]
+      },
+      "build": {
+        "title": "Build & Iterate",
+        "description": "Fast iteration with production discipline: clean structure, performance-first choices, and frequent demos.",
+        "deliverables": [
+          "Feature development in milestones",
+          "Performance baseline (isolates when needed)",
+          "Weekly demos + progress updates"
+        ]
+      },
+      "release": {
+        "title": "QA, Release & Handover",
+        "description": "Stability and store-readiness: test pass, release checklist, and a smooth handover with documentation.",
+        "deliverables": [
+          "Release checklist for App Store / Google Play",
+          "Bug fixes, polish, and production hardening",
+          "Handover notes + next steps plan"
+        ]
+      },
+      "discoveryScope": {
+        "title": "Discovery and Scope",
+        "description": "We align on the goal, constraints, and what done looks like. I turn it into a clear scope and realistic milestones.",
+        "deliverables": [
+          "Brief and requirements clarification",
+          "Milestones, timeline, and risk notes",
+          "Project plan with weekly checkpoints"
+        ]
+      },
+      "architectureUxPlan": {
+        "title": "Architecture and UX Plan",
+        "description": "I define the technical foundation and UX flows before deep implementation, so the build scales cleanly.",
+        "deliverables": [
+          "High-level architecture (Flutter and backend)",
+          "Core UX flows and navigation plan",
+          "Data model and integration plan (APIs/Firestore/etc.)"
+        ]
+      },
+      "buildIterate": {
+        "title": "Build and Iterate",
+        "description": "Fast iteration with production discipline: clean structure, performance-first choices, and frequent demos.",
+        "deliverables": [
+          "Feature development in milestones",
+          "Performance baseline (isolates when needed)",
+          "Weekly demos and progress updates"
+        ]
+      },
+      "qaReleaseHandover": {
+        "title": "QA, Release, and Handover",
+        "description": "Stability and store-readiness: test pass, release checklist, and a smooth handover with documentation.",
+        "deliverables": [
+          "Release checklist for App Store and Google Play",
+          "Bug fixes, polish, and production hardening",
+          "Handover notes and next steps plan"
+        ]
+      }
+    },
+    "workingStyle": {
+      "title": "Working style",
+      "description": "Clear communication, measurable milestones, and production-quality delivery. If native iOS/Android or backend work is needed, I handle it end-to-end.",
+      "cta": "Start a project"
+    },
+    "section": {
+      "title": "Process",
+      "description": "A simple, predictable workflow - designed to reduce risk and ship production-ready mobile apps. You'll always know what's happening, what's next, and what you're getting."
+    },
+    "actions": {
+      "discussProject": "Discuss your project",
+      "startProject": "Start a project"
+    },
+    "bottomCta": {
+      "title": "Working style",
+      "description": "Clear communication, measurable milestones, and production-quality delivery. If native iOS/Android or backend work is needed, I handle it end-to-end."
+    }
+  },
+  "projectCard": {
+    "viewDetails": "View details",
+    "aria": {
+      "viewDetails": "View {title} details"
+    },
+    "imageAlt": "{title} app icon"
+  },
+  "projectDetail": {
+    "backToProjects": "Back to projects",
+    "cta": {
+      "startProject": "Start a project",
+      "viewServices": "View services"
+    },
+    "storeLinks": {
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "website": "Website"
+    },
+    "sections": {
+      "impact": "Impact",
+      "whatIDid": "What I did",
+      "highlights": "Highlights",
+      "challenges": "Challenges",
+      "architectureDelivery": "Architecture and delivery",
+      "techStack": "Tech stack",
+      "problem": "Problem",
+      "solution": "Solution",
+      "outcome": "Outcome"
+    },
+    "impactLabels": {
+      "role": "Role",
+      "status": "Status",
+      "focus": "Focus",
+      "platform": "Platform"
+    },
+    "actions": {
+      "backToProjects": "Back to projects",
+      "startProject": "Start a project",
+      "viewServices": "View services"
+    },
+    "imageAlt": "{title} app icon"
+  },
+  "projects": {
+    "title": "Projects & Professional Work",
+    "description": "A selection of products I’ve delivered across Flutter, backend integrations, and native iOS/Android work — optimized for production quality, performance, and store-ready execution.",
+    "cta": {
+      "startProject": "Start a project"
+    },
+    "section": {
+      "title": "Projects and Professional Work",
+      "description": "A selection of products I've delivered across Flutter, backend integrations, and native iOS/Android work - optimized for production quality, performance, and store-ready execution.",
+      "cta": "Start a project"
+    },
+    "fallbackFocus": "Production-ready mobile UX with scalable integration points",
+    "items": {
+      "babyfoods": {
+        "title": "BabyFoods",
+        "category": "Baby nutrition & meal planning",
+        "shortDescription": "A baby nutrition and meal-planning app with personalized recommendations and a subscription model — designed for fast daily use.",
+        "description": "BabyFoods helps parents plan meals and snacks with age-appropriate guidance, personalized suggestions, and a subscription-driven experience.",
+        "highlights": [
+          "Subscription-ready flows (RevenueCat) with paywall + entitlements",
+          "Performance-first UX for quick daily logging and browsing",
+          "Scalable backend-ready structure for personalized content"
+        ],
+        "problem": "Parents need a simple, reliable way to plan baby meals and snacks without digging through scattered sources — especially on busy days.",
+        "solution": "A clean, mobile-first product with a subscription model, structured content, and an architecture designed for scalable personalization.",
+        "outcome": "Store-ready product prepared for review with a strong foundation for future growth: richer recommendations, analytics, and iterative releases.",
+        "challenges": [
+          "Designing for busy, real-life usage: fast flows, minimal friction, clear information hierarchy.",
+          "Keeping guidance trustworthy while staying simple and not overwhelming new parents.",
+          "Building subscription flows that feel premium (paywall, entitlements, restore) without hurting conversion.",
+          "Preparing an architecture that can scale to personalization, analytics, and content iteration over time."
+        ],
+        "architecture": [
+          "Feature-first structure with clear boundaries for content, tracking, and subscription modules.",
+          "Typed models + predictable state handling to keep UX stable under frequent iteration.",
+          "RevenueCat integration with clean entitlement checks and restore flows for production readiness.",
+          "Analytics-ready event points and release-friendly structure for fast iterations after launch."
+        ]
+      },
+      "cleanly": {
+        "title": "Cleanly",
+        "category": "Storage cleaner & duplicate detection",
+        "shortDescription": "A storage cleaner that detects duplicate photos/videos with native iOS/Android integrations and performance-first processing.",
+        "description": "Cleanly focuses on real-world device libraries: fast scanning, reliable grouping, and safe cleanup flows supported by native capabilities.",
+        "highlights": [
+          "Native media pipeline (iOS/Android) for scanning & grouping",
+          "Performance-first processing for large libraries (isolates/native)",
+          "Export / cleanup flows designed for everyday usage"
+        ],
+        "problem": "Users run out of storage because duplicate or low-value media silently accumulates — but deleting must be safe and fast.",
+        "solution": "A performance-focused scanning and grouping pipeline with native integrations and user-friendly cleanup flows.",
+        "outcome": "Production-ready build prepared for store review, built to handle large libraries with a scalable architecture for future features.",
+        "challenges": [
+          "Handling very large media libraries without freezing the UI or draining battery.",
+          "Grouping duplicates reliably while supporting edge cases (bursts, edits, similar videos).",
+          "Designing safe deletion/cleanup flows that users can trust (undo, confirmations, preview).",
+          "Bridging native media APIs with Flutter while keeping performance and maintainability high."
+        ],
+        "architecture": [
+          "Native iOS/Android media access layer + Flutter orchestration for predictable performance.",
+          "Background/isolate processing for hashing/grouping and progress-driven UI updates.",
+          "Safe operations pipeline (preview → select → confirm → execute) with guardrails and telemetry points.",
+          "Modular code structure designed for adding new scanners (screenshots, large files, duplicates) without rewrites."
+        ]
+      },
+      "homegpt": {
+        "title": "AI Interior Design: HomeGPT",
+        "category": "AI home design & room inspiration",
+        "shortDescription": "AI-powered room design concepts from a photo — focused on fast generation, clean UX, and production reliability.",
+        "description": "HomeGPT enables users to explore interior design directions quickly by generating room concepts from a single photo.",
+        "highlights": [
+          "Mobile feature development with product-grade UX",
+          "Backend-ready integration points for scalable generation flows",
+          "Production-quality architecture and iteration-friendly structure"
+        ],
+        "problem": "People want quick, visual interior inspiration but traditional design tools are slow and complex for casual users.",
+        "solution": "A photo-first flow that generates design directions quickly with a clean mobile experience and scalable integration points.",
+        "outcome": "Live on the App Store, optimized for fast exploration and future expansion of styles, categories, and personalization.",
+        "challenges": [
+          "Keeping generation flows fast and reliable under variable backend latency.",
+          "Designing a photo-first UX that feels simple while still guiding users to better results.",
+          "Handling edge cases (large images, slow networks, retries) without breaking the user journey.",
+          "Building a structure that supports rapid iteration of prompts, styles, and UI experiments."
+        ],
+        "architecture": [
+          "Feature-based modular structure (generation, history, paywall, settings) for clean ownership and iteration.",
+          "Typed API layer with request/response models and predictable error handling (timeouts, retries, fallbacks).",
+          "Caching + optimistic UI for smoother perceived performance across browse/regenerate flows.",
+          "Analytics-ready event naming and funnel points to support product decisions without UI clutter."
+        ]
+      },
+      "inked": {
+        "title": "Tattoo AI Design: Inked",
+        "category": "AI tattoo ideas & design generation",
+        "shortDescription": "AI tattoo design generator focused on rapid iteration, style exploration, and a smooth mobile purchase journey.",
+        "description": "Inked helps users generate and explore tattoo concepts across styles with a fast, mobile-first workflow.",
+        "highlights": [
+          "Mobile flow development for high-frequency generation use cases",
+          "Backend integration support when needed for scalable generation",
+          "Quality-first UI details and stable release behavior"
+        ],
+        "problem": "Users struggle to translate an idea into a clean tattoo concept and want quick variations across styles.",
+        "solution": "A guided generation flow with fast iteration and a mobile UX optimized for browsing, saving, and refining designs.",
+        "outcome": "Live on the App Store with a foundation designed for scalable content generation and future feature growth.",
+        "challenges": [
+          "Supporting high-frequency creation loops (generate → refine → save) without UI fatigue.",
+          "Balancing quality controls (style, constraints) with a workflow that stays ‘one-tap simple’.",
+          "Preventing drop-offs by making credits/subscription moments feel natural and non-blocking.",
+          "Keeping the app stable while experimenting with new styles, prompts, and flows."
+        ],
+        "architecture": [
+          "State-driven UI for generation pipelines (idle → generating → result → refine) with clear transitions.",
+          "Reusable UI components for style selectors, prompt helpers, and results grid to keep consistency at speed.",
+          "Network abstraction for generation endpoints + consistent error surfaces (empty states, retry patterns).",
+          "Scalable assets pipeline for storing favorites/history while remaining backend-ready for expansion."
+        ]
+      },
+      "vido": {
+        "title": "Video AI: Vido",
+        "category": "AI video generation",
+        "shortDescription": "AI video generation from text/images with a mobile UX focused on speed, clarity, and reliable outputs.",
+        "description": "Vido focuses on making AI video generation approachable on mobile: simple prompts, quick results, and share-ready exports.",
+        "highlights": [
+          "Mobile UX for creation → preview → export/share pipeline",
+          "Backend-ready integration approach for scalable processing",
+          "Production stability and iteration-friendly structure"
+        ],
+        "problem": "Creating short-form video content is time-consuming; users want a fast way to generate clips for social media.",
+        "solution": "A streamlined mobile experience that turns prompts into videos quickly, designed for reliability and future scalability.",
+        "outcome": "Live on the App Store with a structure ready for growth in templates, styles, and export options.",
+        "challenges": [
+          "Communicating progress and expectations in long-running generation tasks (without feeling stuck).",
+          "Designing a creation → preview → export pipeline that remains clear on mobile.",
+          "Handling partial failures (generation succeeded but export failed) with graceful recovery.",
+          "Keeping perceived performance high despite heavy backend workloads."
+        ],
+        "architecture": [
+          "Async job-style flow modeled as states (queued → processing → preview → export) with deterministic UI.",
+          "Resilient polling / status refresh strategy with cancel + retry handling.",
+          "Clean separation of concerns: creation inputs, job tracking, preview player, export/share utilities.",
+          "Guardrails for reliability: timeouts, backoff, and user-friendly error copy for each pipeline step."
+        ]
+      },
+      "logohub": {
+        "title": "AI Logo Maker: LogoHub",
+        "category": "AI logo generation & brand assets",
+        "shortDescription": "An AI logo maker that generates brand-ready logos quickly with a clean mobile experience and scalable architecture.",
+        "description": "LogoHub helps users create professional-looking logos in seconds with a simple, mobile-first workflow.",
+        "highlights": [
+          "Mobile feature development and UX polish for creation flows",
+          "Backend support when needed for generation + asset delivery",
+          "Architecture designed for fast iteration and stable releases"
+        ],
+        "problem": "Founders and small teams need fast brand identity assets without the cost and time of a full design process.",
+        "solution": "A lightweight mobile experience that generates logo options quickly, with a foundation built for scale and iteration.",
+        "outcome": "Live on the App Store and positioned for expanding templates, exports, and brand asset generation.",
+        "challenges": [
+          "Helping users get ‘good enough’ results quickly while still enabling meaningful refinement.",
+          "Making export and asset selection feel premium (formats, variants) without overwhelming the UI.",
+          "Keeping generation + browsing snappy across many iterations and logo variations.",
+          "Supporting future growth: templates, brand kits, and multi-asset delivery."
+        ],
+        "architecture": [
+          "Step-based flow (brief → generate → shortlist → refine → export) that stays intuitive on mobile.",
+          "Componentized preview system for variants (grid, detail, compare) to keep UI consistent and fast.",
+          "Backend-ready data shapes for assets (logo variants, palettes, exports) and future brand-kit expansion.",
+          "Analytics + experimentation-friendly structure (A/B-ready screens and measured funnel checkpoints)."
+        ]
+      }
+    }
+  },
+  "services": {
+    "card": {
+      "badge": {
+        "mostRequested": "Most requested"
+      },
+      "cta": {
+        "primary": "Start a project",
+        "secondary": "See how I work"
+      },
+      "idealForLabel": "Ideal for"
+    },
+    "section": {
+      "title": "Services",
+      "description": "I deliver end-to-end mobile products - Flutter-first, with backend, subscriptions, and native iOS/Android when needed. Clear scope, predictable milestones, and production-quality execution.",
+      "quoteCta": "Get a quote"
+    },
+    "cards": {
+      "mvp": {
+        "title": "MVP Sprint",
+        "subtitle": "Validate the product quickly — without cutting quality.",
+        "idealFor": "Founders who want a usable MVP shipped fast with a clean base for iteration.",
+        "includes": [
+          "Scope + milestones + weekly progress updates",
+          "Flutter app implementation with clean architecture",
+          "Release-ready build + store checklist guidance"
+        ]
+      },
+      "product": {
+        "title": "Product Build",
+        "subtitle": "End-to-end delivery: app + backend + subscriptions.",
+        "idealFor": "Teams who want a senior dev owning full execution from MVP to production.",
+        "includes": [
+          "Flutter app + scalable backend integration",
+          "Auth, payments/subscriptions (RevenueCat), analytics events",
+          "Performance tuning (isolates) + production hardening"
+        ]
+      },
+      "performance": {
+        "title": "Performance & Native",
+        "subtitle": "When Flutter needs native power.",
+        "idealFor": "Apps that require media processing, platform APIs, or advanced performance work.",
+        "includes": [
+          "Native iOS/Android modules (Swift/Kotlin) when needed",
+          "Media pipelines, background tasks, large-data optimization",
+          "Stability, profiling, and release-quality improvements"
+        ]
+      },
+      "mvpSprint": {
+        "title": "MVP Sprint",
+        "subtitle": "Validate the product quickly without cutting quality.",
+        "idealFor": "Founders who want a usable MVP shipped fast with a clean base for iteration.",
+        "includes": [
+          "Scope and milestones with weekly progress updates",
+          "Flutter app implementation with clean architecture",
+          "Release-ready build and store checklist guidance"
+        ]
+      },
+      "productBuild": {
+        "title": "Product Build",
+        "subtitle": "End-to-end delivery: app, backend, and subscriptions.",
+        "idealFor": "Teams who want a senior dev owning full execution from MVP to production.",
+        "includes": [
+          "Flutter app and scalable backend integration",
+          "Auth, payments/subscriptions (RevenueCat), analytics events",
+          "Performance tuning (isolates) and production hardening"
+        ]
+      },
+      "performanceNative": {
+        "title": "Performance and Native",
+        "subtitle": "When Flutter needs native power.",
+        "idealFor": "Apps that require media processing, platform APIs, or advanced performance work.",
+        "includes": [
+          "Native iOS/Android modules (Swift/Kotlin) when needed",
+          "Media pipelines, background tasks, large-data optimization",
+          "Stability, profiling, and release-quality improvements"
+        ]
+      }
+    },
+    "bottomCta": {
+      "title": "Not sure which service fits?",
+      "description": "Tell me your idea and constraints - I'll propose the best path and a realistic delivery plan.",
+      "cta": "Discuss your product"
+    },
+    "actions": {
+      "getQuote": "Get a quote",
+      "discussProduct": "Discuss your product"
+    },
+    "cardLabels": {
+      "mostRequested": "Most requested",
+      "idealFor": "Ideal for"
+    },
+    "cardActions": {
+      "startProject": "Start a project",
+      "seeHowIWork": "See how I work"
+    }
+  },
+  "status": {
+    "live": "Live",
+    "inReview": "In review"
+  },
+  "ownership": {
+    "owner": "Owned & built end-to-end",
+    "contributor": "Built with company team"
+  },
+  "platform": {
+    "ios": "iOS",
+    "android": "Android",
+    "iosAndroid": "iOS / Android"
+  },
+  "projectDetails": {
+    "role": {
+      "owner": "End-to-end ownership",
+      "contributor": "Mobile + backend support"
+    },
+    "status": {
+      "liveOnAppStore": "Live on App Store"
+    },
+    "focus": {
+      "default": "Production-ready mobile UX with scalable integration points"
+    },
+    "whatIDid": {
+      "owner": [
+        "Owned delivery end-to-end: product direction, Flutter implementation, backend integrations, and store-ready execution.",
+        "Designed production-grade architecture for speed, scalability, and clean iteration cycles.",
+        "Built subscription + analytics/release workflows to support ongoing growth post-launch."
+      ],
+      "contributor": [
+        "Built and refined key mobile flows with production-grade UX and reliability.",
+        "Supported backend integration points where needed to scale generation/processing workflows.",
+        "Helped maintain stable releases with iteration-friendly structure and clean UI patterns."
+      ]
+    },
+    "owner": {
+      "role": "End-to-end ownership",
+      "whatIDid": [
+        "Owned delivery end-to-end: product direction, Flutter implementation, backend integrations, and store-ready execution.",
+        "Designed production-grade architecture for speed, scalability, and clean iteration cycles.",
+        "Built subscription + analytics/release workflows to support ongoing growth post-launch."
+      ]
+    },
+    "contributor": {
+      "role": "Mobile + backend support",
+      "whatIDid": [
+        "Built and refined key mobile flows with production-grade UX and reliability.",
+        "Supported backend integration points where needed to scale generation/processing workflows.",
+        "Helped maintain stable releases with iteration-friendly structure and clean UI patterns."
+      ]
+    }
+  }
+}

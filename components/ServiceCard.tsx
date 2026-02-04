@@ -1,3 +1,7 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+
 type Props = {
     title: string;
     subtitle: string;
@@ -13,6 +17,8 @@ export default function ServiceCard({
     includes,
     emphasis,
 }: Props) {
+    const t = useTranslations("services");
+
     return (
         <div
             className={[
@@ -32,13 +38,15 @@ export default function ServiceCard({
 
                 {emphasis ? (
                     <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.06] px-3 py-1 text-[11px] font-semibold text-white/80">
-                        Most requested
+                        {t("cardLabels.mostRequested")}
                     </span>
                 ) : null}
             </div>
 
             <div className="mt-5 rounded-2xl border border-white/10 bg-white/[0.03] p-4">
-                <p className="text-xs font-semibold text-white/60">Ideal for</p>
+                <p className="text-xs font-semibold text-white/60">
+                    {t("cardLabels.idealFor")}
+                </p>
                 <p className="mt-2 text-sm text-white/75">{idealFor}</p>
             </div>
 
@@ -53,10 +61,11 @@ export default function ServiceCard({
 
             <div className="mt-6 flex flex-wrap items-center gap-3">
                 <a className="btn-primary" href="#contact">
-                    Start a project
+                    {t("cardActions.startProject")}
                 </a>
                 <a className="nav-link inline-flex items-center gap-2" href="#process">
-                    See how I work <span className="text-white/50">→</span>
+                    {t("cardActions.seeHowIWork")}{" "}
+                    <span className="text-white/50">→</span>
                 </a>
             </div>
         </div>

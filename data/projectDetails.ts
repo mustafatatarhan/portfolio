@@ -2,47 +2,33 @@
 import { projects } from "./projects";
 
 export type ProjectDetail = {
-    whatIDid: string[];
+    whatIDidKey: string; // "projectDetails.owner.whatIDid" gibi
     impact: {
-        role: string;
-        status: string;
-        focus: string;
-        platform: string;
+        roleKey: string;
+        statusKey: string; // live/inReview
+        focusKey: string;  // project category -> project i18nKey üzerinden
+        platformKey: string; // computed but key-based
     };
 };
 
 export function getProjectDetail(slug: string): ProjectDetail {
     const p = projects.find((x) => x.slug === slug);
 
-    // Reasonable defaults (never break rendering)
     const isOwner = p?.ownership.type === "owner";
-    const role = isOwner ? "End-to-end ownership" : "Mobile + backend support";
-    const platform =
-        p?.tech.includes("iOS") ? "iOS" : p?.tech.includes("Android") ? "Android" : "iOS / Android";
+    const platformKey =
+        p?.tech.includes("iOS")
+            ? "platform.ios"
+            : p?.tech.includes("Android")
+                ? "platform.android"
+                : "platform.iosAndroid";
 
     return {
-        whatIDid: isOwner
-            ? [
-                "Owned delivery end-to-end: product direction, Flutter implementation, backend integrations, and store-ready execution.",
-                "Designed production-grade architecture for speed, scalability, and clean iteration cycles.",
-                "Built subscription + analytics/release workflows to support ongoing growth post-launch.",
-            ]
-            : [
-                "Built and refined key mobile flows with production-grade UX and reliability.",
-                "Supported backend integration points where needed to scale generation/processing workflows.",
-                "Helped maintain stable releases with iteration-friendly structure and clean UI patterns.",
-            ],
-
+        whatIDidKey: isOwner ? "projectDetails.owner.whatIDid" : "projectDetails.contributor.whatIDid",
         impact: {
-            role,
-            status:
-                p?.status.label === "Live"
-                    ? "Live on App Store"
-                    : p?.status.label || "In review",
-            focus:
-                p?.category ||
-                "Production-ready mobile UX with scalable integration points",
-            platform,
+            roleKey: isOwner ? "projectDetails.owner.role" : "projectDetails.contributor.role",
+            statusKey: p?.status.labelKey ?? "status.inReview",
+            focusKey: p?.i18nKey ? `${p.i18nKey}.category` : "projects.fallbackFocus",
+            platformKey,
         },
     };
 }

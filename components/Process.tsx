@@ -1,17 +1,18 @@
 import ProcessStep from "@/components/ProcessStep";
+import { useTranslations } from "next-intl";
 
 export default function Process() {
+    const t = useTranslations("process");
+
     return (
         <section id="process" className="mx-auto w-full max-w-6xl px-6 py-20">
             <div className="flex items-end justify-between gap-6">
                 <div>
                     <h2 className="text-3xl font-extrabold tracking-tight text-white">
-                        Process
+                        {t("section.title")}
                     </h2>
                     <p className="mt-3 max-w-2xl text-sm leading-6 text-white/60">
-                        A simple, predictable workflow — designed to reduce risk and ship
-                        production-ready mobile apps. You’ll always know what’s happening,
-                        what’s next, and what you’re getting.
+                        {t("section.description")}
                     </p>
                 </div>
 
@@ -20,53 +21,37 @@ export default function Process() {
                     className="hidden rounded-xl border border-white/10 bg-white/[0.03] px-4 py-2 text-sm font-semibold text-white/80
                      hover:bg-white/[0.06] md:inline-block"
                 >
-                    Discuss your project
+                    {t("actions.discussProject")}
                 </a>
             </div>
 
             <div className="mt-10 grid gap-6 md:grid-cols-2">
                 <ProcessStep
                     index={1}
-                    title="Discovery & Scope"
-                    description="We align on the goal, constraints, and what “done” looks like. I turn it into a clear scope and realistic milestones."
-                    deliverables={[
-                        "Brief + requirements clarification",
-                        "Milestones, timeline, and risk notes",
-                        "Project plan with weekly checkpoints",
-                    ]}
+                    title={t("steps.discoveryScope.title")}
+                    description={t("steps.discoveryScope.description")}
+                    deliverables={t.raw("steps.discoveryScope.deliverables") as string[]}
                 />
 
                 <ProcessStep
                     index={2}
-                    title="Architecture & UX Plan"
-                    description="I define the technical foundation and UX flows before deep implementation, so the build scales cleanly."
-                    deliverables={[
-                        "High-level architecture (Flutter + backend)",
-                        "Core UX flows & navigation plan",
-                        "Data model + integration plan (APIs/Firestore/etc.)",
-                    ]}
+                    title={t("steps.architectureUxPlan.title")}
+                    description={t("steps.architectureUxPlan.description")}
+                    deliverables={t.raw("steps.architectureUxPlan.deliverables") as string[]}
                 />
 
                 <ProcessStep
                     index={3}
-                    title="Build & Iterate"
-                    description="Fast iteration with production discipline: clean structure, performance-first choices, and frequent demos."
-                    deliverables={[
-                        "Feature development in milestones",
-                        "Performance baseline (isolates when needed)",
-                        "Weekly demos + progress updates",
-                    ]}
+                    title={t("steps.buildIterate.title")}
+                    description={t("steps.buildIterate.description")}
+                    deliverables={t.raw("steps.buildIterate.deliverables") as string[]}
                 />
 
                 <ProcessStep
                     index={4}
-                    title="QA, Release & Handover"
-                    description="Stability and store-readiness: test pass, release checklist, and a smooth handover with documentation."
-                    deliverables={[
-                        "Release checklist for App Store / Google Play",
-                        "Bug fixes, polish, and production hardening",
-                        "Handover notes + next steps plan",
-                    ]}
+                    title={t("steps.qaReleaseHandover.title")}
+                    description={t("steps.qaReleaseHandover.description")}
+                    deliverables={t.raw("steps.qaReleaseHandover.deliverables") as string[]}
                 />
             </div>
 
@@ -75,17 +60,15 @@ export default function Process() {
                 <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                     <div>
                         <p className="text-sm font-semibold text-white/85">
-                            Working style
+                            {t("bottomCta.title")}
                         </p>
                         <p className="mt-2 text-sm text-white/65">
-                            Clear communication, measurable milestones, and production-quality
-                            delivery. If native iOS/Android or backend work is needed, I handle
-                            it end-to-end.
+                            {t("bottomCta.description")}
                         </p>
                     </div>
 
                     <a className="btn-primary" href="#contact">
-                        Start a project
+                        {t("actions.startProject")}
                     </a>
                 </div>
             </div>

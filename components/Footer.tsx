@@ -1,8 +1,13 @@
+"use client";
+
 import Link from "next/link";
 import { SiLinkedin, SiInstagram } from "react-icons/si";
 import { HiMail } from "react-icons/hi";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+    const t = useTranslations("footer");
+
     return (
         <footer className="mt-24 border-t border-white/10">
             <div className="mx-auto w-full max-w-6xl px-6 py-12">
@@ -14,38 +19,38 @@ export default function Footer() {
                             href="/"
                             className="text-lg font-extrabold tracking-tight text-white"
                         >
-                            Mustafa Tatarhan<span className="accent">.</span>
+                            {t("brandName")}
+                            <span className="accent">.</span>
                         </Link>
 
                         <p className="mt-3 max-w-sm text-sm leading-6 text-white/60">
-                            End-to-end Flutter product development — performance-first apps,
-                            scalable backends, and store-ready releases.
+                            {t("tagline")}
                         </p>
 
                         <div className="mt-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-white/70">
                             <span className="h-2 w-2 rounded-full bg-emerald-400" />
-                            Available for freelance
+                            {t("availability")}
                         </div>
                     </div>
 
                     {/* Links */}
                     <div className="md:justify-self-center">
                         <p className="text-xs font-semibold uppercase tracking-wider text-white/50">
-                            Navigation
+                            {t("navigationTitle")}
                         </p>
 
                         <div className="mt-4 grid grid-cols-2 gap-x-10 gap-y-3 text-sm">
                             <a className="nav-link w-fit" href="#projects">
-                                Projects
+                                {t("links.projects")}
                             </a>
                             <a className="nav-link w-fit" href="#services">
-                                Services
+                                {t("links.services")}
                             </a>
                             <a className="nav-link w-fit" href="#process">
-                                Process
+                                {t("links.process")}
                             </a>
                             <a className="nav-link w-fit" href="#contact">
-                                Contact
+                                {t("links.contact")}
                             </a>
                         </div>
                     </div>
@@ -53,7 +58,7 @@ export default function Footer() {
                     {/* Social */}
                     <div className="md:justify-self-end">
                         <p className="text-xs font-semibold uppercase tracking-wider text-white/50">
-                            Say hello
+                            {t("socialTitle")}
                         </p>
 
                         <div className="mt-4 flex items-center gap-3">
@@ -62,7 +67,7 @@ export default function Footer() {
                                 href="https://www.linkedin.com/in/YOUR_LINKEDIN"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                aria-label="LinkedIn"
+                                aria-label={t("socialAria.linkedIn")}
                             >
                                 <SiLinkedin size={18} />
                             </a>
@@ -70,7 +75,7 @@ export default function Footer() {
                             <a
                                 className="social-pill"
                                 href="mailto:hello@yourmail.com"
-                                aria-label="Email"
+                                aria-label={t("socialAria.email")}
                             >
                                 <HiMail size={18} />
                             </a>
@@ -80,23 +85,22 @@ export default function Footer() {
                                 href="https://www.instagram.com/YOUR_INSTAGRAM"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                aria-label="Instagram"
+                                aria-label={t("socialAria.instagram")}
                             >
                                 <SiInstagram size={18} />
                             </a>
                         </div>
 
                         <p className="mt-4 max-w-xs text-sm text-white/60">
-                            For project inquiries, email works best. Include timeline + scope,
-                            I’ll reply with next steps.
+                            {t("inquiryNote")}
                         </p>
                     </div>
                 </div>
 
                 {/* Bottom */}
                 <div className="mt-12 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-white/50 md:flex-row md:items-center md:justify-between">
-                    <p>© {new Date().getFullYear()} Mustafa Tatarhan. All rights reserved.</p>
-                    <p className="text-white/40">Built with Next.js + Tailwind.</p>
+                    <p>{t("copyright", { year: new Date().getFullYear() })}</p>
+                    <p className="text-white/40">{t("builtWith")}</p>
                 </div>
             </div>
         </footer>

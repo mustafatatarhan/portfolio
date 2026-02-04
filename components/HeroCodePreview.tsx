@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useTranslations } from "next-intl";
 
 type TokenType =
     | "comment"
@@ -175,6 +176,7 @@ function classFor(type: TokenType) {
 }
 
 export default function HeroCodePreview() {
+    const t = useTranslations("heroCodePreview");
     const FULL_CODE_STRING = `import 'package:flutter/material.dart';
 
 void main() {
@@ -201,17 +203,13 @@ class HomePage extends StatelessWidget {
     return const Scaffold(
       body: Center(
         child: Text(
-          'Production-ready Flutter apps.',
+          '${t("codeText")}',
         ),
       ),
     );
   }
 }`;
-    const code = useMemo(
-        () => FULL_CODE_STRING,
-        []
-    );
-
+    const code = useMemo(() => FULL_CODE_STRING, [FULL_CODE_STRING]);
     const tokens = useMemo(() => tokenizeDart(code), [code]);
     const totalChars = useMemo(() => code.length, [code]);
 
@@ -223,7 +221,6 @@ class HomePage extends StatelessWidget {
         setVisibleChars(0);
         setDone(false);
 
-        // speed: 10–18ms arası güzel; 14ms “tık tık” hissi verir
         const speedMs = 14;
 
         const id = window.setInterval(() => {
@@ -249,8 +246,10 @@ class HomePage extends StatelessWidget {
             <div className="relative rounded-2xl border border-white/10 code-surface p-5 shadow-xl overflow-hidden">
                 {/* Header */}
                 <div className="mb-4 flex items-center justify-between text-xs text-white/60">
-                    <span>lib/main.dart</span>
-                    <span className="rounded-md bg-white/5 px-2 py-0.5">Flutter</span>
+                    <span>{t("fileName")}</span>
+                    <span className="rounded-md bg-white/5 px-2 py-0.5">
+                        {t("language")}
+                    </span>
                 </div>
 
                 {/* ====== HEIGHT PLACEHOLDER (invisible) ====== */}
@@ -258,25 +257,22 @@ class HomePage extends StatelessWidget {
                     className="text-sm leading-6 pr-2 select-none pointer-events-none opacity-0"
                     aria-hidden="true"
                 >
-                    <code className="font-mono">
-                        {/* burada FULL kodu düz string olarak bas */}
-                        {FULL_CODE_STRING}
-                    </code>
+                    <code className="font-mono">{code}</code>
                 </pre>
 
                 {/* ====== VISIBLE TYPING LAYER (absolute overlay) ====== */}
                 <pre className="absolute left-5 right-5 bottom-5 top-[56px] text-sm leading-6 overflow-hidden pr-2">
                     <code className="font-mono">
-                        {tokens.map((t, idx) => {
+                        {tokens.map((tkn, idx) => {
                             if (remaining <= 0) return null;
 
-                            const take = Math.min(remaining, t.value.length);
+                            const take = Math.min(remaining, tkn.value.length);
                             remaining -= take;
 
-                            const part = t.value.slice(0, take);
+                            const part = tkn.value.slice(0, take);
 
                             return (
-                                <span key={idx} className={classFor(t.type)}>
+                                <span key={idx} className={classFor(tkn.type)}>
                                     {part}
                                 </span>
                             );

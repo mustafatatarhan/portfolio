@@ -1,16 +1,22 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-
-const nav = [
-    { label: "Projects", href: "#projects" },
-    { label: "Services", href: "#services" },
-    { label: "Process", href: "#process" },
-    { label: "Contact", href: "#contact" },
-];
+import { useTranslations } from "next-intl";
 
 export default function Navbar() {
-    const ids = useMemo(() => nav.map((n) => n.href.replace("#", "")), []);
+    const t = useTranslations("navbar");
+
+    const nav = useMemo(
+        () => [
+            { label: t("links.projects"), href: "#projects" },
+            { label: t("links.services"), href: "#services" },
+            { label: t("links.process"), href: "#process" },
+            { label: t("links.contact"), href: "#contact" },
+        ],
+        [t]
+    );
+
+    const ids = useMemo(() => nav.map((n) => n.href.replace("#", "")), [nav]);
     const [active, setActive] = useState<string>(""); // default: none
 
     const goTop = () => {
@@ -28,9 +34,7 @@ export default function Navbar() {
             (entries) => {
                 const visible = entries
                     .filter((e) => e.isIntersecting)
-                    .sort(
-                        (a, b) => (b.intersectionRatio ?? 0) - (a.intersectionRatio ?? 0)
-                    );
+                    .sort((a, b) => (b.intersectionRatio ?? 0) - (a.intersectionRatio ?? 0));
 
                 if (visible[0]?.target?.id) setActive(visible[0].target.id);
                 else setActive("");
@@ -58,9 +62,10 @@ export default function Navbar() {
                             type="button"
                             onClick={goTop}
                             className="text-left text-xl font-extrabold tracking-tight text-white"
-                            aria-label="Go to top"
+                            aria-label={t("aria.goToTop")}
                         >
-                            Mustafa Tatarhan<span className="text-white/60">.</span>
+                            {t("brandName")}
+                            <span className="text-white/60">.</span>
                         </button>
 
                         <nav className="hidden items-center gap-7 md:flex">
@@ -83,10 +88,14 @@ export default function Navbar() {
                         {/* Right side: availability + quick contact */}
                         <div className="hidden items-center gap-3 md:flex">
                             <span className="text-xs font-medium text-white/60">
-                                Available for freelance
+                                {t("availability")}
                             </span>
 
-                            <a className="social-pill" href="#contact" aria-label="Contact">
+                            <a
+                                className="social-pill"
+                                href="#contact"
+                                aria-label={t("aria.contact")}
+                            >
                                 ✉
                             </a>
                         </div>

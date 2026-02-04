@@ -1,0 +1,617 @@
+{
+  "navbar": {
+    "projects": "Projeler",
+    "services": "Hizmetler",
+    "process": "Süreç",
+    "contact": "İletişim",
+    "available": "Freelance için müsait",
+    "brandAria": "Başa dön",
+    "contactAria": "İletişim",
+    "brandName": "Mustafa Tatarhan",
+    "links": {
+      "projects": "Projeler",
+      "services": "Hizmetler",
+      "process": "Süreç",
+      "contact": "İletişim"
+    },
+    "availability": "Freelance için müsait",
+    "aria": {
+      "goToTop": "Başa dön",
+      "contact": "İletişim"
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "description": "Ne inşa ettiğinizi ve hangi kısıtlarınız olduğunu paylaşın (zaman planı, platform, bütçe). Gerçekçi bir plan ve sonraki adımlarla geri dönerim.",
+    "fastestWay": {
+      "title": "En hızlı yol",
+      "subtitle": "Kısa bir mesaj gönderin:",
+      "items": [
+        "Uygulamanın ne yaptığı (1-2 cümle)",
+        "Hedef platformlar (iOS / Android / Web)",
+        "Zaman planı ve olmazsa olmaz özellikler"
+      ]
+    },
+    "primaryCta": {
+      "email": "Bana e-posta gönder",
+      "services": "Hizmetleri gör"
+    },
+    "cards": {
+      "email": {
+        "title": "E-posta",
+        "description": "Proje detayları, zaman planı ve gereksinimler için en uygunu.",
+        "cta": "E-posta gönder"
+      },
+      "linkedin": {
+        "title": "LinkedIn",
+        "description": "Ürününüz hakkında hızlı bir tanıtım ve bağlam için ideal.",
+        "cta": "LinkedIn'den mesaj gönder"
+      },
+      "linkedIn": {
+        "title": "LinkedIn",
+        "description": "Ürününüz hakkında hızlı bir tanıtım ve bağlam için ideal.",
+        "cta": "LinkedIn'den mesaj gönder"
+      }
+    },
+    "footerNote": "Asenkron mu tercih ediyorsunuz? En iyisi e-posta - genelde 24 saat içinde yanıtlarım.",
+    "section": {
+      "title": "İletişim",
+      "description": "Ne inşa ettiğinizi ve hangi kısıtlarınız olduğunu paylaşın (zaman planı, platform, bütçe). Gerçekçi bir plan ve sonraki adımlarla geri dönerim.",
+      "fastestWayTitle": "En hızlı yol",
+      "fastestWayLead": "Kısa bir mesaj gönderin:",
+      "fastestWayItems": [
+        "Uygulamanın ne yaptığı (1-2 cümle)",
+        "Hedef platformlar (iOS / Android / Web)",
+        "Zaman planı ve olmazsa olmaz özellikler"
+      ]
+    },
+    "actions": {
+      "emailMe": "Bana e-posta gönder",
+      "seeServices": "Hizmetleri gör"
+    }
+  },
+  "footer": {
+    "brandDescription": "Uçtan uca Flutter ürün geliştirme - performans öncelikli uygulamalar, ölçeklenebilir backend'ler ve mağaza yayına hazır sürümler.",
+    "availability": "Freelance için müsait",
+    "navigationTitle": "Gezinme",
+    "nav": {
+      "projects": "Projeler",
+      "services": "Hizmetler",
+      "process": "Süreç",
+      "contact": "İletişim"
+    },
+    "socialTitle": "Merhaba deyin",
+    "socialNote": "Proje talepleri için en iyisi e-posta. Zaman planı ve kapsamı ekleyin, sonraki adımlarla geri döneyim.",
+    "copyright": "© {year} Mustafa Tatarhan. Tüm hakları saklıdır.",
+    "builtWith": "Next.js ve Tailwind ile inşa edildi.",
+    "brandName": "Mustafa Tatarhan",
+    "tagline": "Uçtan uca Flutter ürün geliştirme - performans öncelikli uygulamalar, ölçeklenebilir backend'ler ve mağaza yayına hazır sürümler.",
+    "links": {
+      "projects": "Projeler",
+      "services": "Hizmetler",
+      "process": "Süreç",
+      "contact": "İletişim"
+    },
+    "socialAria": {
+      "linkedIn": "LinkedIn",
+      "email": "E-posta",
+      "instagram": "Instagram"
+    },
+    "inquiryNote": "Proje talepleri için en iyisi e-posta. Zaman planı ve kapsamı ekleyin, sonraki adımlarla geri döneyim."
+  },
+  "hero": {
+    "locationLine": "Sakarya, TR - Flutter - Mobil Ürün Geliştirme",
+    "headline": {
+      "prefix": "Ben",
+      "highlight": "uçtan uca",
+      "tech": "Flutter",
+      "suffix": "ürünler geliştiririm."
+    },
+    "description": "MVP'den üretime hazır uygulamalara: temiz mimari, performans (isolates) ve gerektiğinde native iOS/Android; ayrıca ölçeklenebilir backend'ler ve abonelik akışları (RevenueCat).",
+    "trust": {
+      "flutterFirst": "Flutter öncelikli",
+      "native": "Native iOS ve Android",
+      "backend": "Backend ve abonelikler",
+      "storeReady": "Mağaza yayına hazır sürümler"
+    },
+    "cta": {
+      "primary": "Proje başlat",
+      "secondary": "Projeleri gör",
+      "availability": "Freelance için müsait - Uzaktan / Hibrit"
+    },
+    "whatYouGet": {
+      "title": "Ne elde edersiniz",
+      "items": [
+        "Net kapsam, kilometre taşları ve haftalık ilerleme güncellemeleri",
+        "Performans odaklı Flutter (isolates) ve gerektiğinde native iOS/Android",
+        "Backend, kimlik doğrulama, ödeme/abonelikler, analitik ve mağaza yayın desteği"
+      ]
+    },
+    "title": {
+      "prefix": "Ben",
+      "accent": "uçtan uca",
+      "platform": "Flutter",
+      "suffix": "ürünler geliştiririm."
+    },
+    "trustBadges": {
+      "flutterFirst": "Flutter öncelikli",
+      "native": "iOS ve Android native",
+      "backend": "Backend ve abonelikler",
+      "storeReady": "Mağaza yayına hazır sürümler"
+    },
+    "actions": {
+      "startProject": "Proje başlat",
+      "viewProjects": "Projeleri gör"
+    },
+    "social": {
+      "linkedIn": "LinkedIn",
+      "email": "E-posta",
+      "instagram": "Instagram"
+    }
+  },
+  "heroCodePreview": {
+    "fileName": "lib/main.dart",
+    "badge": "Flutter",
+    "codeText": "Üretime hazır Flutter uygulamaları.",
+    "language": "Flutter",
+    "fullCode": "import 'package:flutter/material.dart';\n\nvoid main() {\n  runApp(const MyApp());\n}\n\nclass MyApp extends StatelessWidget {\n  const MyApp({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return MaterialApp(\n      debugShowCheckedModeBanner: false,\n      home: const HomePage(),\n    );\n  }\n}\n\nclass HomePage extends StatelessWidget {\n  const HomePage({super.key});\n\n  @override\n  Widget build(BuildContext context) {\n    return const Scaffold(\n      body: Center(\n        child: Text(\n          'Üretime hazır Flutter uygulamaları.',\n        ),\n      ),\n    );\n  }\n}"
+  },
+  "process": {
+    "title": "Süreç",
+    "description": "Riski azaltmak ve üretime hazır mobil uygulamalar çıkarmak için tasarlanmış, basit ve öngörülebilir bir iş akışı. Nelerin olduğunu, sırada ne olduğunu ve ne alacağınızı her zaman bilirsiniz.",
+    "ctaDiscuss": "Projenizi konuşalım",
+    "steps": {
+      "discovery": {
+        "title": "Keşif ve Kapsam",
+        "description": "Hedef, kısıtlar ve 'tamamlandı' tanımında hizalanırız. Bunu net bir kapsam ve gerçekçi kilometre taşlarına dönüştürürüm.",
+        "deliverables": [
+          "Özet ve gereksinim netleştirme",
+          "Kilometre taşları, zaman planı ve risk notları",
+          "Haftalık kontrol noktaları içeren proje planı"
+        ]
+      },
+      "architecture": {
+        "title": "Mimari ve UX Planı",
+        "description": "Derin geliştirmeye geçmeden önce teknik temeli ve UX akışlarını tanımlarım; böylece yapı temiz şekilde ölçeklenir.",
+        "deliverables": [
+          "Üst seviye mimari (Flutter + backend)",
+          "Temel UX akışları ve navigasyon planı",
+          "Veri modeli ve entegrasyon planı (API'ler/Firestore vb.)"
+        ]
+      },
+      "build": {
+        "title": "Geliştir ve İyileştir",
+        "description": "Üretim disipliniyle hızlı iterasyon: temiz yapı, performans odaklı seçimler ve düzenli demo.",
+        "deliverables": [
+          "Kilometre taşlarıyla özellik geliştirme",
+          "Performans temel çizgisi (gerektiğinde isolates)",
+          "Haftalık demolar ve ilerleme güncellemeleri"
+        ]
+      },
+      "release": {
+        "title": "QA, Yayın ve Devir",
+        "description": "Stabilite ve mağaza yayına hazırlık: testler, yayın kontrol listesi ve dokümantasyonla sorunsuz devir.",
+        "deliverables": [
+          "App Store / Google Play için yayın kontrol listesi",
+          "Hata düzeltmeleri, cilalama ve üretim sağlamlaştırma",
+          "Devir notları ve sonraki adımlar planı"
+        ]
+      },
+      "discoveryScope": {
+        "title": "Keşif ve Kapsam",
+        "description": "Hedef, kısıtlar ve tamamlandı tanımında hizalanırız. Bunu net bir kapsam ve gerçekçi kilometre taşlarına dönüştürürüm.",
+        "deliverables": [
+          "Özet ve gereksinim netleştirme",
+          "Kilometre taşları, zaman planı ve risk notları",
+          "Haftalık kontrol noktaları içeren proje planı"
+        ]
+      },
+      "architectureUxPlan": {
+        "title": "Mimari ve UX Planı",
+        "description": "Derin geliştirmeye geçmeden önce teknik temeli ve UX akışlarını tanımlarım; böylece yapı temiz şekilde ölçeklenir.",
+        "deliverables": [
+          "Üst seviye mimari (Flutter ve backend)",
+          "Temel UX akışları ve navigasyon planı",
+          "Veri modeli ve entegrasyon planı (API'ler/Firestore vb.)"
+        ]
+      },
+      "buildIterate": {
+        "title": "Geliştir ve İyileştir",
+        "description": "Üretim disipliniyle hızlı iterasyon: temiz yapı, performans odaklı seçimler ve düzenli demo.",
+        "deliverables": [
+          "Kilometre taşlarıyla özellik geliştirme",
+          "Performans temel çizgisi (gerektiğinde isolates)",
+          "Haftalık demolar ve ilerleme güncellemeleri"
+        ]
+      },
+      "qaReleaseHandover": {
+        "title": "QA, Yayın ve Devir",
+        "description": "Stabilite ve mağaza yayına hazırlık: testler, yayın kontrol listesi ve dokümantasyonla sorunsuz devir.",
+        "deliverables": [
+          "App Store ve Google Play için yayın kontrol listesi",
+          "Hata düzeltmeleri, cilalama ve üretim sağlamlaştırma",
+          "Devir notları ve sonraki adımlar planı"
+        ]
+      }
+    },
+    "workingStyle": {
+      "title": "Çalışma biçimi",
+      "description": "Net iletişim, ölçülebilir kilometre taşları ve üretim kalitesinde teslimat. Native iOS/Android veya backend işi gerekiyorsa uçtan uca üstlenirim.",
+      "cta": "Proje başlat"
+    },
+    "section": {
+      "title": "Süreç",
+      "description": "Riski azaltmak ve üretime hazır mobil uygulamalar çıkarmak için tasarlanmış, basit ve öngörülebilir bir iş akışı. Nelerin olduğunu, sırada ne olduğunu ve ne alacağınızı her zaman bilirsiniz."
+    },
+    "actions": {
+      "discussProject": "Projenizi konuşalım",
+      "startProject": "Proje başlat"
+    },
+    "bottomCta": {
+      "title": "Çalışma biçimi",
+      "description": "Net iletişim, ölçülebilir kilometre taşları ve üretim kalitesinde teslimat. Native iOS/Android veya backend işi gerekiyorsa uçtan uca üstlenirim."
+    }
+  },
+  "projectCard": {
+    "viewDetails": "Detayları gör",
+    "aria": {
+      "viewDetails": "{title} detaylarını gör"
+    },
+    "imageAlt": "{title} uygulama ikonu"
+  },
+  "projectDetail": {
+    "backToProjects": "Projeler'e geri dön",
+    "cta": {
+      "startProject": "Proje başlat",
+      "viewServices": "Hizmetleri gör"
+    },
+    "storeLinks": {
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "website": "Web sitesi"
+    },
+    "sections": {
+      "impact": "Etki",
+      "whatIDid": "Yaptıklarım",
+      "highlights": "Öne çıkanlar",
+      "challenges": "Zorluklar",
+      "architectureDelivery": "Mimari ve teslimat",
+      "techStack": "Teknoloji yığını",
+      "problem": "Problem",
+      "solution": "Çözüm",
+      "outcome": "Sonuç"
+    },
+    "impactLabels": {
+      "role": "Rol",
+      "status": "Durum",
+      "focus": "Odak",
+      "platform": "Platform"
+    },
+    "actions": {
+      "backToProjects": "Projeler'e geri dön",
+      "startProject": "Proje başlat",
+      "viewServices": "Hizmetleri gör"
+    },
+    "imageAlt": "{title} uygulama ikonu"
+  },
+  "projects": {
+    "title": "Projeler ve Profesyonel Çalışmalar",
+    "description": "Flutter, backend entegrasyonları ve native iOS/Android çalışmalarında teslim ettiğim ürünlerden seçki - üretim kalitesi, performans ve mağaza yayını için optimize.",
+    "cta": {
+      "startProject": "Proje başlat"
+    },
+    "section": {
+      "title": "Projeler ve Profesyonel Çalışmalar",
+      "description": "Flutter, backend entegrasyonları ve native iOS/Android çalışmalarında teslim ettiğim ürünlerden seçki - üretim kalitesi, performans ve mağaza yayını için optimize.",
+      "cta": "Proje başlat"
+    },
+    "fallbackFocus": "Ölçeklenebilir entegrasyonlara hazır, production kalitesinde mobil UX",
+    "items": {
+      "babyfoods": {
+        "title": "BabyFoods",
+        "category": "Bebek beslenmesi ve öğün planlama",
+        "shortDescription": "Kişiselleştirilmiş öneriler ve abonelik modeli olan bir bebek beslenmesi ve öğün planlama uygulaması - hızlı günlük kullanım için tasarlandı.",
+        "description": "BabyFoods, ebeveynlerin yaşa uygun yönlendirmeler, kişiselleştirilmiş öneriler ve abonelik odaklı bir deneyimle öğün ve atıştırmalıkları planlamasına yardımcı olur.",
+        "highlights": [
+          "Paywall ve yetkilendirmelerle (entitlements) RevenueCat abonelik akışları",
+          "Hızlı günlük kayıt ve göz atma için performans odaklı UX",
+          "Kişiselleştirilmiş içerik için ölçeklenebilir, backend'e hazır yapı"
+        ],
+        "problem": "Ebeveynler, özellikle yoğun günlerde, dağınık kaynaklarda kaybolmadan bebek öğünlerini planlamanın basit ve güvenilir bir yoluna ihtiyaç duyar.",
+        "solution": "Abonelik modeli, yapılandırılmış içerik ve ölçeklenebilir kişiselleştirme için tasarlanmış mimariyle temiz, mobil öncelikli bir ürün.",
+        "outcome": "Mağaza incelemesi için hazır, gelecekte daha zengin öneriler, analitik ve iteratif sürümler için güçlü temele sahip ürün.",
+        "challenges": [
+          "Yoğun, gerçek hayat kullanımına göre tasarım: hızlı akışlar, minimum sürtünme, net bilgi hiyerarşisi.",
+          "Yeni ebeveynleri bunaltmadan güvenilir yönlendirme sağlamak.",
+          "Dönüşümü düşürmeden premium hissettiren abonelik akışları (paywall, yetkilendirme, geri yükleme) tasarlamak.",
+          "Zamanla kişiselleştirme, analitik ve içerik iterasyonuna ölçeklenebilecek mimariyi hazırlamak."
+        ],
+        "architecture": [
+          "İçerik, takip ve abonelik modülleri için net sınırlar içeren feature-first yapı.",
+          "Sık iterasyonda UX'in stabil kalması için tiplenmiş modeller ve öngörülebilir state yönetimi.",
+          "Production'a hazır entitlements kontrolleri ve geri yükleme akışlarıyla RevenueCat entegrasyonu.",
+          "Lansman sonrası hızlı iterasyonlar için analitik-ready olay noktaları ve yayın dostu yapı."
+        ]
+      },
+      "cleanly": {
+        "title": "Cleanly",
+        "category": "Depolama temizleyici ve kopya tespiti",
+        "shortDescription": "Native iOS/Android entegrasyonları ve performans odaklı işleme ile foto/video kopyalarını tespit eden bir depolama temizleyici.",
+        "description": "Cleanly, gerçek cihaz kütüphanelerine odaklanır: hızlı tarama, güvenilir gruplama ve native yeteneklerle desteklenen güvenli temizleme akışları.",
+        "highlights": [
+          "Tarama ve gruplama için native medya hattı (iOS/Android)",
+          "Büyük kütüphaneler için performans odaklı işleme (isolates/native)",
+          "Günlük kullanım için tasarlanmış dışa aktarma/temizleme akışları"
+        ],
+        "problem": "Kopya veya düşük değerli medya birikimi depolamayı doldurur - ancak silme işlemi güvenli ve hızlı olmalıdır.",
+        "solution": "Native entegrasyonlar ve kullanıcı dostu temizleme akışlarıyla performans odaklı tarama ve gruplama hattı.",
+        "outcome": "Mağaza incelemesi için hazır, büyük kütüphaneleri kaldırabilecek ve gelecekteki özellikler için ölçeklenebilir mimariye sahip production build.",
+        "challenges": [
+          "Çok büyük medya kütüphanelerini UI'yi dondurmadan veya pil tüketimini artırmadan işlemek.",
+          "Seriler, düzenlemeler, benzer videolar gibi uç durumları desteklerken kopyaları güvenilir şekilde gruplamak.",
+          "Kullanıcıların güvenebileceği güvenli silme/temizleme akışları tasarlamak (geri al, onaylar, önizleme).",
+          "Performans ve sürdürülebilirliği korurken native medya API'lerini Flutter ile köprülemek."
+        ],
+        "architecture": [
+          "Öngörülebilir performans için native iOS/Android medya erişim katmanı + Flutter orkestrasyonu.",
+          "Hashing/gruplama için arka plan/isolate işleme ve ilerleme odaklı UI güncellemeleri.",
+          "Korumalı operasyon hattı (önizle → seç → onayla → uygula) ve telemetri noktaları.",
+          "Yeniden yazmadan yeni tarayıcılar (ekran görüntüleri, büyük dosyalar, kopyalar) eklemek için modüler yapı."
+        ]
+      },
+      "homegpt": {
+        "title": "AI Interior Design: HomeGPT",
+        "category": "AI ev tasarımı ve oda ilhamı",
+        "shortDescription": "Bir fotoğraftan AI destekli oda tasarım konseptleri - hızlı üretim, temiz UX ve production güvenilirliği odaklı.",
+        "description": "HomeGPT, tek bir fotoğraftan oda konseptleri üreterek kullanıcıların iç mekan tasarım yönlerini hızlıca keşfetmesini sağlar.",
+        "highlights": [
+          "Ürün seviyesinde UX ile mobil özellik geliştirme",
+          "Ölçeklenebilir üretim akışları için backend'e hazır entegrasyon noktaları",
+          "Production kalitesinde mimari ve iterasyona uygun yapı"
+        ],
+        "problem": "İnsanlar hızlı, görsel iç mekan ilhamı ister ancak geleneksel tasarım araçları gündelik kullanıcılar için yavaş ve karmaşıktır.",
+        "solution": "Hızlı tasarım yönleri üreten fotoğraf-odaklı akış; temiz mobil deneyim ve ölçeklenebilir entegrasyon noktaları.",
+        "outcome": "App Store'da yayında; hızlı keşif ve stil, kategori, kişiselleştirme genişlemesi için optimize.",
+        "challenges": [
+          "Değişken backend gecikmesinde üretim akışlarını hızlı ve güvenilir tutmak.",
+          "Basit hissettiren ama daha iyi sonuçlara yönlendiren fotoğraf-odaklı UX tasarlamak.",
+          "Büyük görseller, yavaş ağlar, tekrar deneme gibi uç durumları kullanıcı yolculuğunu bozmadan yönetmek.",
+          "Prompt, stil ve UI denemelerinde hızlı iterasyonu destekleyen bir yapı kurmak."
+        ],
+        "architecture": [
+          "Temiz sahiplik ve iterasyon için feature bazlı modüler yapı (generation, history, paywall, settings).",
+          "Öngörülebilir hata yönetimi (timeout, retry, fallback) olan tipli API katmanı.",
+          "Daha akıcı algılanan performans için caching + optimistic UI.",
+          "UI'ı kirletmeden ürün kararlarını destekleyecek analitik event isimleri ve funnel noktaları."
+        ]
+      },
+      "inked": {
+        "title": "Tattoo AI Design: Inked",
+        "category": "AI dövme fikirleri ve tasarım üretimi",
+        "shortDescription": "Hızlı iterasyon, stil keşfi ve pürüzsüz mobil satın alma yolculuğuna odaklı AI dövme tasarım üretici.",
+        "description": "Inked, stiller arasında hızlı ve mobil-öncelikli bir akışla dövme konseptleri üretip keşfetmeyi sağlar.",
+        "highlights": [
+          "Yüksek frekanslı üretim kullanım senaryoları için mobil akış geliştirme",
+          "Gerektiğinde ölçeklenebilir üretim için backend entegrasyon desteği",
+          "Kalite odaklı UI detayları ve stabil sürüm davranışı"
+        ],
+        "problem": "Kullanıcılar bir fikri temiz bir dövme konsepte dönüştürmekte zorlanır ve stiller arasında hızlı varyasyon ister.",
+        "solution": "Hızlı iterasyonlu yönlendirilmiş üretim akışı; tarama, kaydetme ve iyileştirmeye optimize edilmiş mobil UX.",
+        "outcome": "App Store'da yayında; ölçeklenebilir içerik üretimi ve gelecekteki büyüme için temel.",
+        "challenges": [
+          "Yüksek frekanslı üretim döngülerini (üret → iyileştir → kaydet) UI yorgunluğu olmadan desteklemek.",
+          "Kalite kontrollerini (stil, kısıtlar) tek dokunuşta basit kalan bir akışla dengelemek.",
+          "Kredi/abonelik anlarını doğal ve engelleyici olmayan şekilde tasarlayarak drop-off'u azaltmak.",
+          "Yeni stiller, promptlar ve akışlar denenirken uygulamayı stabil tutmak."
+        ],
+        "architecture": [
+          "Net geçişlerle üretim pipeline'ı için state-driven UI (idle → generating → result → refine).",
+          "Hızlı ve tutarlı UI için stil seçiciler, prompt yardımcıları ve sonuç grid'inde tekrar kullanılabilir bileşenler.",
+          "Generation uç noktaları için ağ soyutlaması + tutarlı hata yüzeyleri (boş durumlar, yeniden deneme desenleri).",
+          "Gelecekteki genişleme için backend'e hazır şekilde favoriler/geçmiş depolayan ölçeklenebilir varlık hattı."
+        ]
+      },
+      "vido": {
+        "title": "Video AI: Vido",
+        "category": "AI video üretimi",
+        "shortDescription": "Metin/görsellerden AI video üretimi; hız, netlik ve güvenilir çıktılara odaklı mobil UX.",
+        "description": "Vido, mobilde AI video üretimini erişilebilir kılar: basit promptlar, hızlı sonuçlar ve paylaşmaya hazır dışa aktarmalar.",
+        "highlights": [
+          "Oluşturma → önizleme → dışa aktarma/paylaşma hattı için mobil UX",
+          "Ölçeklenebilir işleme için backend'e hazır entegrasyon yaklaşımı",
+          "Production stabilitesi ve iterasyona uygun yapı"
+        ],
+        "problem": "Kısa format video üretimi zaman alır; kullanıcılar sosyal medya için hızlı klip üretmek ister.",
+        "solution": "Güvenilirlik ve gelecekte ölçeklenebilirlik için tasarlanmış, promptları hızla videoya dönüştüren yalın mobil deneyim.",
+        "outcome": "App Store'da yayında; şablonlar, stiller ve dışa aktarma seçenekleri için büyümeye hazır yapı.",
+        "challenges": [
+          "Uzun süren üretim görevlerinde ilerleme ve beklenti iletişimini doğru vermek (takılı hissettirmeden).",
+          "Mobilde net kalan oluşturma → önizleme → dışa aktarma hattı tasarlamak.",
+          "Kısmi hataları (üretim başarılı ama dışa aktarma başarısız) zarif şekilde toparlamak.",
+          "Yoğun backend iş yüküne rağmen algılanan performansı yüksek tutmak."
+        ],
+        "architecture": [
+          "Deterministik UI için state olarak modellenmiş async job akışı (queued → processing → preview → export).",
+          "Cancel + retry yönetimiyle dayanıklı polling / durum yenileme stratejisi.",
+          "Ayrık sorumluluklar: oluşturma girdileri, iş takibi, önizleme oynatıcısı, dışa aktarma/paylaşım yardımcıları.",
+          "Her adım için kullanıcı dostu hata metniyle güvenilirlik korumaları: timeouts, backoff."
+        ]
+      },
+      "logohub": {
+        "title": "AI Logo Maker: LogoHub",
+        "category": "AI logo üretimi ve marka varlıkları",
+        "shortDescription": "Marka hazır logoları hızlıca üreten, temiz mobil deneyim ve ölçeklenebilir mimariye sahip AI logo yapıcı.",
+        "description": "LogoHub, basit ve mobil-öncelikli bir akışla saniyeler içinde profesyonel görünümlü logolar üretir.",
+        "highlights": [
+          "Oluşturma akışları için mobil özellik geliştirme ve UX cilası",
+          "Gerektiğinde üretim + varlık teslimi için backend desteği",
+          "Hızlı iterasyon ve stabil sürümler için tasarlanmış mimari"
+        ],
+        "problem": "Kurucular ve küçük ekipler, tam bir tasarım sürecinin maliyeti ve zamanına girmeden hızlı marka kimliği varlıkları ister.",
+        "solution": "Hızlı logo seçenekleri üreten, ölçek ve iterasyon için temel oluşturulmuş hafif bir mobil deneyim.",
+        "outcome": "App Store'da yayında; şablonlar, dışa aktarmalar ve marka varlık üretimi için konumlandırıldı.",
+        "challenges": [
+          "Kullanıcıların hızlıca 'yeterince iyi' sonuçlar almasını sağlarken anlamlı iyileştirmeyi mümkün kılmak.",
+          "İhracat ve varlık seçimini premium hissettirmek (formatlar, varyantlar) ama UI'ı boğmamak.",
+          "Birçok iterasyon ve logo varyasyonu arasında üretim ve gezinmeyi akıcı tutmak.",
+          "Gelecekteki büyüme: şablonlar, marka kitleri ve çoklu varlık teslimi."
+        ],
+        "architecture": [
+          "Mobilde sezgisel kalan adım bazlı akış (brief → generate → shortlist → refine → export).",
+          "Varyantlar için bileşenleştirilmiş önizleme sistemi (grid, detay, karşılaştırma) ile tutarlı ve hızlı UI.",
+          "Varlıklar için backend'e hazır veri şekilleri (logo varyantları, paletler, dışa aktarmalar) ve gelecekte marka kit genişlemesi.",
+          "Analytics + deneyselliğe uygun yapı (A/B-ready ekranlar ve ölçümlenen funnel kontrol noktaları)."
+        ]
+      }
+    }
+  },
+  "services": {
+    "card": {
+      "badge": {
+        "mostRequested": "En çok talep edilen"
+      },
+      "cta": {
+        "primary": "Proje başlat",
+        "secondary": "Nasıl çalıştığımı gör"
+      },
+      "idealForLabel": "İdeal olan"
+    },
+    "section": {
+      "title": "Hizmetler",
+      "description": "Uçtan uca mobil ürünler teslim ederim - Flutter öncelikli; gerektiğinde backend, abonelikler ve native iOS/Android ile. Net kapsam, öngörülebilir kilometre taşları ve üretim kalitesinde uygulama.",
+      "quoteCta": "Teklif al"
+    },
+    "cards": {
+      "mvp": {
+        "title": "MVP Sprint",
+        "subtitle": "Kaliteden ödün vermeden ürünü hızlıca doğrulayın.",
+        "idealFor": "Temiz bir temel ile hızlıca kullanılabilir MVP isteyen kurucular için.",
+        "includes": [
+          "Kapsam, kilometre taşları ve haftalık ilerleme güncellemeleri",
+          "Temiz mimari ile Flutter uygulama geliştirme",
+          "Yayınlanmaya hazır build ve mağaza kontrol listesi rehberliği"
+        ]
+      },
+      "product": {
+        "title": "Ürün Geliştirme",
+        "subtitle": "Uçtan uca teslimat: uygulama + backend + abonelikler.",
+        "idealFor": "MVP'den üretime kadar tüm yürütümü kıdemli bir geliştiricinin üstlenmesini isteyen ekipler için.",
+        "includes": [
+          "Flutter uygulaması ve ölçeklenebilir backend entegrasyonu",
+          "Kimlik doğrulama, ödeme/abonelikler (RevenueCat), analitik olayları",
+          "Performans iyileştirme (isolates) ve üretim sağlamlaştırma"
+        ]
+      },
+      "performance": {
+        "title": "Performans ve Native",
+        "subtitle": "Flutter'ın native güce ihtiyaç duyduğu yerlerde.",
+        "idealFor": "Medya işleme, platform API'leri veya ileri performans çalışmaları gerektiren uygulamalar için.",
+        "includes": [
+          "Gerektiğinde native iOS/Android modülleri (Swift/Kotlin)",
+          "Medya iş akışları, arka plan görevleri, büyük veri optimizasyonu",
+          "Stabilite, profil çıkarma ve yayın kalitesi iyileştirmeleri"
+        ]
+      },
+      "mvpSprint": {
+        "title": "MVP Sprint",
+        "subtitle": "Kaliteden ödün vermeden ürünü hızlıca doğrulayın.",
+        "idealFor": "Temiz bir temel ile hızlıca kullanılabilir MVP isteyen kurucular için.",
+        "includes": [
+          "Kapsam ve kilometre taşlarıyla haftalık ilerleme güncellemeleri",
+          "Temiz mimari ile Flutter uygulama geliştirme",
+          "Yayınlanmaya hazır build ve mağaza kontrol listesi rehberliği"
+        ]
+      },
+      "productBuild": {
+        "title": "Ürün Geliştirme",
+        "subtitle": "Uçtan uca teslimat: uygulama, backend ve abonelikler.",
+        "idealFor": "MVP'den üretime kadar tüm yürütümü kıdemli bir geliştiricinin üstlenmesini isteyen ekipler için.",
+        "includes": [
+          "Flutter uygulaması ve ölçeklenebilir backend entegrasyonu",
+          "Kimlik doğrulama, ödeme/abonelikler (RevenueCat), analitik olayları",
+          "Performans iyileştirme (isolates) ve üretim sağlamlaştırma"
+        ]
+      },
+      "performanceNative": {
+        "title": "Performans ve Native",
+        "subtitle": "Flutter'ın native güce ihtiyaç duyduğu yerlerde.",
+        "idealFor": "Medya işleme, platform API'leri veya ileri performans çalışmaları gerektiren uygulamalar için.",
+        "includes": [
+          "Gerektiğinde native iOS/Android modülleri (Swift/Kotlin)",
+          "Medya iş akışları, arka plan görevleri, büyük veri optimizasyonu",
+          "Stabilite, profil çıkarma ve yayın kalitesi iyileştirmeleri"
+        ]
+      }
+    },
+    "bottomCta": {
+      "title": "Hangi hizmetin uygun olduğundan emin değil misiniz?",
+      "description": "Fikrinizi ve kısıtlarınızı anlatın - en iyi yolu ve gerçekçi bir teslim planı önereyim.",
+      "cta": "Ürününüzü konuşalım"
+    },
+    "actions": {
+      "getQuote": "Teklif al",
+      "discussProduct": "Ürününüzü konuşalım"
+    },
+    "cardLabels": {
+      "mostRequested": "En çok talep edilen",
+      "idealFor": "İdeal olan"
+    },
+    "cardActions": {
+      "startProject": "Proje başlat",
+      "seeHowIWork": "Nasıl çalıştığımı gör"
+    }
+  },
+  "status": {
+    "live": "Yayında",
+    "inReview": "İncelemede"
+  },
+  "ownership": {
+    "owner": "Uçtan uca sahiplik ve geliştirme",
+    "contributor": "Şirket ekibiyle geliştirildi"
+  },
+  "platform": {
+    "ios": "iOS",
+    "android": "Android",
+    "iosAndroid": "iOS / Android"
+  },
+  "projectDetails": {
+    "role": {
+      "owner": "Uçtan uca sahiplik",
+      "contributor": "Mobil + backend desteği"
+    },
+    "status": {
+      "liveOnAppStore": "App Store’da yayında"
+    },
+    "focus": {
+      "default": "Ölçeklenebilir entegrasyonlara hazır, production kalitesinde mobil UX"
+    },
+    "whatIDid": {
+      "owner": [
+        "Ürünü uçtan uca sahiplendim: ürün yönü, Flutter geliştirme, backend entegrasyonları ve store’a hazır teslim.",
+        "Hız, ölçeklenebilirlik ve temiz iterasyon için production seviyesinde mimari tasarladım.",
+        "Lansman sonrası büyümeyi desteklemek için abonelik + analitik/release akışlarını kurguladım."
+      ],
+      "contributor": [
+        "Production kalitesinde UX ve stabiliteyle kritik mobil akışları geliştirdim ve iyileştirdim.",
+        "Gerektikçe generation/processing süreçlerini ölçeklemek için backend entegrasyon noktalarını destekledim.",
+        "Sürüm stabilitesini koruyacak şekilde iterasyona uygun yapı ve temiz UI pattern’larıyla katkı verdim."
+      ]
+    },
+    "owner": {
+      "role": "Uçtan uca sahiplik",
+      "whatIDid": [
+        "Ürünü uçtan uca sahiplendim: ürün yönü, Flutter geliştirme, backend entegrasyonları ve store’a hazır teslim.",
+        "Hız, ölçeklenebilirlik ve temiz iterasyon için production seviyesinde mimari tasarladım.",
+        "Lansman sonrası büyümeyi desteklemek için abonelik + analitik/release akışlarını kurguladım."
+      ]
+    },
+    "contributor": {
+      "role": "Mobil + backend desteği",
+      "whatIDid": [
+        "Production kalitesinde UX ve stabiliteyle kritik mobil akışları geliştirdim ve iyileştirdim.",
+        "Gerektikçe generation/processing süreçlerini ölçeklemek için backend entegrasyon noktalarını destekledim.",
+        "Sürüm stabilitesini koruyacak şekilde iterasyona uygun yapı ve temiz UI pattern’larıyla katkı verdim."
+      ]
+    }
+  }
+}
