@@ -39,11 +39,11 @@ export const projects: Project[] = [
     {
         slug: "babyfoods",
         i18nKey: "projects.items.babyfoods",
-        status: { labelKey: "status.inReview", tone: "warning" },
+        status: { labelKey: "status.live", tone: "success" },
         ownership: { type: "owner", labelKey: "ownership.owner" },
         tech: ["Flutter", "Firebase", "RevenueCat"],
         icon: "/images/babyfoods_app_icon.png",
-        links: {},
+        links: { appStore: "https://apps.apple.com/tr/app/babyfoods-baby-meals-plans/id6757964246" },
         highlightsKey: "projects.items.babyfoods.highlights",
         challengesKey: "projects.items.babyfoods.challenges",
         architectureKey: "projects.items.babyfoods.architecture",
