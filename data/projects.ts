@@ -55,7 +55,7 @@ export const projects: Project[] = [
         ownership: { type: "owner", labelKey: "ownership.owner" },
         tech: ["Flutter", "Firebase", "Swift", "Kotlin"],
         icon: "/images/cleanly_app_icon.png",
-        links: { appStore: "https://apps.apple.com/us/app/cleanyx-storage-cleaner/id6759286262" },
+        links: { appStore: "https://apps.apple.com/tr/app/cleanyx-depolama-temizleyici/id6759286262" },
         highlightsKey: "projects.items.cleanly.highlights",
         challengesKey: "projects.items.cleanly.challenges",
         architectureKey: "projects.items.cleanly.architecture",
